@@ -1,0 +1,15 @@
+{
+	"id": "static-content-test-1",
+	"teamType": "StaticContentTeam",
+	"projectName": "Static content test 1",
+	"projectDescription": "test",
+	"projectIcon": "team/icon.png",
+	"initTeamTitle": "Static content test 1",
+	"initTeamDescription": "This is a test",
+	"initTeamIcon": "team/icon.png",
+	"initTeamBackgroundImage": "team/backgroundImage.jpg",
+	"version": "1.0.0",	
+	"importUserKey": "docImporter",
+	"isPublic": true,
+	"usePassword": false
+}

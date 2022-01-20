@@ -1,0 +1,15 @@
+{
+  "virtualUser": [
+    {
+      "userKey": "docImporter",
+      "name": "Import User",
+      "description": "test ..."
+    }
+  ],
+  "label": [
+  ],
+  "teamFilter": [      
+  ],
+  "ticketStatus": [      
+  ]
+}
