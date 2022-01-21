@@ -4,7 +4,13 @@ type: NewsChannel
 key: root
 variation: ContentProject
 {{ /DOC }}
-# Hello World.
+
+{{ USE_LAYOUT }}
+  name: DemoLayout
+{{ /USE_LAYOUT }}
+
+{{ LAYOUT_CONTENT name="content" }}
+# Hello World. (2 - with layout)
 
  * Static content Team.
 
@@ -16,4 +22,5 @@ variation: ContentProject
 
 
 Icon: https://commons.wikimedia.org/wiki/File:Quill_Paper_Icon_with_White_Background.png
+{{ /LAYOUT_CONTENT }} 
 
