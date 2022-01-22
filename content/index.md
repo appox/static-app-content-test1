@@ -12,6 +12,8 @@ variation: ContentProject
 {{ LAYOUT_CONTENT name="content" }}
 # Hello World. (2 - with layout)
 
+## NEW CONTENT 1
+ * test
  * Static content Team.
 
 ## TODO: 
