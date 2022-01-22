@@ -1,7 +1,6 @@
 {{ LAYOUT }}
 name: DemoLayout
 {{ /LAYOUT }}
-## Header
 This is the Header.
 
 ## Content
@@ -9,5 +8,4 @@ This is the Header.
     includeName: content
 {{ /MODULE }}
 
-## Footer
 This is the footer.

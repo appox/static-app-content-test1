@@ -10,19 +10,14 @@ variation: ContentProject
 {{ /USE_LAYOUT }}
 
 {{ LAYOUT_CONTENT name="content" }}
-# Hello World. (2 - with layout)
 
-## NEW CONTENT 1
- * test
- * Static content Team.
+## Documents
+{{ MODULE }}
+  moduleType: DocumentFilter
+  documentFilter:
+    filterType: NavigationFilter
+    navigationType: childrenList
+{{ /MODULE }}
 
-## TODO: 
- * Add Labels
- * Add Layout
- * Add Assets
- * Add Demo Content
-
-
-Icon: https://commons.wikimedia.org/wiki/File:Quill_Paper_Icon_with_White_Background.png
 {{ /LAYOUT_CONTENT }} 
 
