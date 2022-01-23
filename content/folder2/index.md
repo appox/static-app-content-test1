@@ -1,5 +1,5 @@
 {{ DOC }}
-title: Folder #2
+title: Folder two #2
 type: NewsChannel
 {{ /DOC }}
 

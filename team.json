@@ -7,9 +7,40 @@
     }
   ],
   "label": [
+    {
+      "labelKey": "error",
+      "labelType": "Public",
+      "name": "Error",
+      "description": "",      
+      "backgroundColor": "#ff0000"
+    }
   ],
   "teamFilter": [      
   ],
-  "ticketStatus": [      
+  "ticketStatus": [
+    {      
+      "key": "todo",
+      "name": "TODO",
+      "title": "TODP",
+      "description": "TODO ...",
+      "statusType": "New",
+      "color": "#CCE5FF"
+    },
+    {      
+      "key": "wip",
+      "name": "WIP",
+      "title": "Work in progress",
+      "description": "wip ...",
+      "statusType": "Wip",
+      "color": "#0080FF"
+    },
+    {      
+      "key": "done",
+      "name": "DONE",
+      "title": "Done",
+      "description": "done ...",
+      "statusType": "Done",
+      "color": "#00CC00"
+    }
   ]
 }

@@ -1,6 +1,8 @@
 {{ DOC }}
-title: Folder #1
+title: Folder one #1
 type: NewsChannel
+labels: 
+  - error    
 {{ /DOC }}
 
 {{ USE_LAYOUT }}

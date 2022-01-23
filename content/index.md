@@ -11,7 +11,7 @@ variation: ContentProject
 
 {{ LAYOUT_CONTENT name="content" }}
 
-## Documents
+## Documents (1)
 {{ MODULE }}
   moduleType: DocumentFilter
   documentFilter:
