@@ -20,11 +20,25 @@
       "backgroundColor": "#ff0000"
     },
     {
-      "labelKey": "info",
+      "labelKey": "feature",
       "labelType": "Public",
       "name": "Info",
       "description": "",      
       "backgroundColor": "#0000ff"
+    },
+    {
+      "labelKey": "ui",
+      "labelType": "Public",
+      "name": "UI/UX",
+      "description": "",      
+      "backgroundColor": "#ffb266"
+    },
+    {
+      "labelKey": "database",
+      "labelType": "Public",
+      "name": "Database",
+      "description": "",      
+      "backgroundColor": "#990000"
     }
   ],
   "teamFilter": [     
@@ -45,8 +59,8 @@
       }
     },
     {      
-      "teamFilterKey": "infoLabelFilter",          
-      "name": "Info label Filter",      
+      "teamFilterKey": "featureLabelFilter",          
+      "name": "Features",      
       "description": "",
       "filterGroup": "board",
       "filter": {
@@ -54,7 +68,7 @@
           "isIncludeFilter": true,
           "mode": "SelectionSet",
           "selection": [
-            "info"
+            "feature"
           ]          
         },
         "sort": ["LastUpdateDateDesc"]
