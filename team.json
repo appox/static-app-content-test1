@@ -4,6 +4,11 @@
       "userKey": "docImporter",
       "name": "Import User",
       "description": "test ..."
+    },
+    {
+      "userKey": "arthur",
+      "name": "Arthur",
+      "description": "A real person ;-)"
     }
   ],
   "label": [
@@ -13,9 +18,48 @@
       "name": "Error",
       "description": "",      
       "backgroundColor": "#ff0000"
+    },
+    {
+      "labelKey": "info",
+      "labelType": "Public",
+      "name": "Info",
+      "description": "",      
+      "backgroundColor": "#0000ff"
     }
   ],
-  "teamFilter": [      
+  "teamFilter": [     
+    {      
+      "teamFilterKey": "errorLabelFilter",          
+      "name": "Errors",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "error"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    },
+    {      
+      "teamFilterKey": "infoLabelFilter",          
+      "name": "Info label Filter",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "info"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    }
   ],
   "ticketStatus": [
     {      

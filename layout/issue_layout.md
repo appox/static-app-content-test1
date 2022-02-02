@@ -1,11 +1,9 @@
 {{ LAYOUT }}
-name: DemoLayout
+name: IssueLayout
 {{ /LAYOUT }}
-This is the Header.
 
-## Content
 {{ MODULE }}
+    moduleTitle: "Issue"
     includeName: content
 {{ /MODULE }}
 
-This is the footer.
