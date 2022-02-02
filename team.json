@@ -4,6 +4,11 @@
       "userKey": "docImporter",
       "name": "Import User",
       "description": "test ..."
+    },
+    {
+      "userKey": "arthur",
+      "name": "Arthur",
+      "description": "A real person ;-)"
     }
   ],
   "label": [
@@ -13,9 +18,62 @@
       "name": "Error",
       "description": "",      
       "backgroundColor": "#ff0000"
+    },
+    {
+      "labelKey": "feature",
+      "labelType": "Public",
+      "name": "Info",
+      "description": "",      
+      "backgroundColor": "#0000ff"
+    },
+    {
+      "labelKey": "ui",
+      "labelType": "Public",
+      "name": "UI/UX",
+      "description": "",      
+      "backgroundColor": "#ffb266"
+    },
+    {
+      "labelKey": "database",
+      "labelType": "Public",
+      "name": "Database",
+      "description": "",      
+      "backgroundColor": "#990000"
     }
   ],
-  "teamFilter": [      
+  "teamFilter": [     
+    {      
+      "teamFilterKey": "errorLabelFilter",          
+      "name": "Errors",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "error"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    },
+    {      
+      "teamFilterKey": "featureLabelFilter",          
+      "name": "Features",      
+      "description": "",
+      "filterGroup": "board",
+      "filter": {
+        "label": {
+          "isIncludeFilter": true,
+          "mode": "SelectionSet",
+          "selection": [
+            "feature"
+          ]          
+        },
+        "sort": ["LastUpdateDateDesc"]
+      }
+    }
   ],
   "ticketStatus": [
     {      

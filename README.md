@@ -1,1 +1,1 @@
-# static-app-content-test1
+# static content test boards

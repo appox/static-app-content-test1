@@ -1,10 +1,10 @@
 {
-	"id": "static-content-test-1",
+	"id": "static-content-test-board",
 	"teamType": "StaticContentTeam",
-	"projectName": "Static content test 1",
+	"projectName": "Static content test board",
 	"projectDescription": "test",
 	"projectIcon": "team/icon.png",
-	"initTeamTitle": "Static content test 1",
+	"initTeamTitle": "Test Boards",
 	"initTeamDescription": "This is a test",
 	"initTeamIcon": "team/icon.png",
 	"initTeamBackgroundImage": "team/backgroundImage.jpg",

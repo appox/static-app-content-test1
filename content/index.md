@@ -2,22 +2,15 @@
 title: Static content test 1
 type: NewsChannel
 key: root
-variation: ContentProject
+variation: ContentProject                
 {{ /DOC }}
 
-{{ USE_LAYOUT }}
-  name: DemoLayout
-{{ /USE_LAYOUT }}
+## Board - start Page
+ * nach den changes
 
-{{ LAYOUT_CONTENT name="content" }}
-
-## Documents (2)
 {{ MODULE }}
   moduleType: DocumentFilter
   documentFilter:
     filterType: NavigationFilter
     navigationType: childrenList
 {{ /MODULE }}
-
-{{ /LAYOUT_CONTENT }} 
-
