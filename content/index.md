@@ -38,7 +38,7 @@ references:
     {{ /MODULE }}
 {{ /GROUP }}
 
-Sem viverra aliquet eget sit. Velit laoreet id donec ultrices. In hac habitasse platea dictumst quisque sagittis purus sit. Feugiat sed lectus vestibulum mattis. Mauris ultrices eros in cursus turpis massa tincidunt. 2
+Sem viverra aliquet eget sit. Velit laoreet id donec ultrices. In hac habitasse platea dictumst quisque sagittis purus sit. Feugiat sed lectus vestibulum mattis. Mauris ultrices eros in cursus turpis massa tincidunt. 3
 
 {{ MODULE }}
   moduleType: DocumentFilter
@@ -70,4 +70,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     navigationType: childrenList
 {{ /MODULE }}
 
-
+{{ MODULE }}
+  moduleType: KeyValueStore
+  moduleTitle: Data
+  data:
+    storeKey: versionInfo
+    map:
+      foo: bar
+{{ /MODULE }}

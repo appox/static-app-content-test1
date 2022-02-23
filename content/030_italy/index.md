@@ -1,4 +1,5 @@
 {{ DOC }}
+key: italy
 title: "Italy"
 type: NewsChannel
 image:

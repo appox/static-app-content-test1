@@ -1,4 +1,5 @@
 {{ DOC }}
+key: germany
 title: "Germany"
 type: NewsChannel
 image:

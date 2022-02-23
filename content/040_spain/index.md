@@ -1,4 +1,5 @@
 {{ DOC }}
+key: spain
 title: "Spain"
 type: NewsChannel
 image:

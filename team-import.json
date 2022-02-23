@@ -1,6 +1,6 @@
 {
 	"id": "static-content-test-1",
-	"teamType": "StaticContentTeam",
+	"teamType": "StaticContentSingleScreenTeam",
 	"projectName": "Static content test 1",
 	"projectDescription": "test",
 	"projectIcon": "team/icon.png",
@@ -11,5 +11,9 @@
 	"version": "1.0.0",	
 	"importUserKey": "docImporter",
 	"isPublic": true,
-	"usePassword": false
+	"usePassword": false,
+	"staticContentTeamType": "Default",
+	"config": {
+		"rootDocumentKey": "root"
+	}	
 }
